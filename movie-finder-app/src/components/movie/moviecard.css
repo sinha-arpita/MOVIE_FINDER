@@ -1,0 +1,26 @@
+.allDetail{
+     display :flex;
+     flex-direction: row;
+     width:100%;
+     justify-content: space-around;
+     
+     font-size: 1.3rem;
+     margin-left: 10px;
+     font-weight: bold;
+     
+
+
+
+}
+.allDetail.image{
+    margin-right: 20px;
+}
+.allDetail.detail{
+    display:flex;
+    flex-direction: row;
+    margin-left: 20px;
+   
+    
+   
+
+}
