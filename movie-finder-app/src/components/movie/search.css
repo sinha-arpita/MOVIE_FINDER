@@ -33,6 +33,7 @@ hr {
     margin-left: 750px;
     font-size: 2 rem;
     font-weight: bold;
+    
 }
 
 .second{
@@ -69,11 +70,13 @@ hr {
     font-weight:bolder;
     margin-bottom: 10px;
 }
-.btn{
-    margin-top: 15px;
-    margin-right: 18px;
-    margin-bottom: 10px;
-    margin-left: 20px;
+.button{
+    margin-left: 750px;
+    background-color:teal;
+    color:white;
+    font-weight: 900;
+    width:100px;
+    height: 50px;
 }
 .pagination {
     display:flex;
@@ -82,3 +85,60 @@ hr {
     justify-content: space-evenly;
     
 }
+@media (max-width: 500px){
+    body{
+      
+        height:100%;
+    }
+
+    .page{
+        width:100%;
+        margin-left:150px;
+        margin-top: 40px;
+        margin-left: 5px;
+        text-align: center; 
+
+        
+        
+        
+    }
+    
+    .heading{
+        text-align: center;
+        color:dodgerblue
+    }
+    .advancedSearch{
+        margin-left: 150px;
+        width:50%;
+        color:dodgerblue;
+       
+    }
+    
+    .para{
+        width:100%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+    
+    
+    
+    }
+    .second{
+        margin-left: 70px;
+        width:30%;
+    }
+    .year{
+        margin-right:40px;
+    }
+    .button{
+
+        background-color:teal;
+        margin-left: 170px;
+        margin-top: 20px;
+        width:150px;
+        font-size:1rem ;
+        
+    }
+
+    }

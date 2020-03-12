@@ -52,7 +52,7 @@ const myKey="a46a614c"
              
                   <div>
                     
-                    <Link to="/" > Go Back</Link>
+                    <Link to="/" >Home</Link>
                    </div>
             </div>       
        )
