@@ -24,6 +24,7 @@
    
 
 }
+
 @media (max-width: 500px){
     .allDetail{
         width:90%;
@@ -45,8 +46,6 @@
 
     }
 
-    .back {
-        margin-left: 250px;
-    }
+    
 
     }

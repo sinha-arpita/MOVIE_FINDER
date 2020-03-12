@@ -50,10 +50,6 @@ const myKey="a46a614c"
                   </div>
                  
              
-                  <div>
-                    
-                    <Link className="back" to="/" >Home</Link>
-                   </div>
             </div>       
        )
              

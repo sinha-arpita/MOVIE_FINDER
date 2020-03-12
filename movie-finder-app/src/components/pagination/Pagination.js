@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Pagination  = (props) => {
-    console.log("pagination")
+    console.log("pagination  ", props.pages)
     
     const pageLinks=[]
     let numOfPages = props.pages;
@@ -10,7 +10,9 @@ const Pagination  = (props) => {
         //want to show not mpre than 10 pages for a search but inform the user if there are more existing pages
         x = "(There are " + parseInt(numOfPages - 10) + " more pages ..)"
     }
-    for (let i=1; i<11;i++){
+    
+    let pagesToShow = props.pages <= 10 ? props.pages : 11
+    for (let i=1; i<=pagesToShow;i++){
         const active= props.currentPage===i ? "active":""
         pageLinks.push(<li className={`${active}`} key={i}  onClick={()=> props.nextPageHandler(i)} ><a href="#" className="number" >{i}</a></li>)
     }

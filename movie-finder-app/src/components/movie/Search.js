@@ -138,7 +138,7 @@ class  Search extends React.Component {
     console.log("Current movie : ", this.state.currentMovie, this.state.totalResults)
     const  selectedOption  = this.state.selectedOption;
     // In one page it shows 10 results , so getting the total number of pages by dividing the total results  by 10
-    const numberOfPages=  Math.floor(this.state.totalResults/10)
+    const numberOfPages=  Math.ceil(this.state.totalResults/10)
 
     return (
         <div className="App">

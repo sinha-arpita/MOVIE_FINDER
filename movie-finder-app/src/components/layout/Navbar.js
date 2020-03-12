@@ -7,9 +7,9 @@ import{Link,NavLink} from "react-router-dom"
         <div>
              <nav>
                 <div className="nav-wrapper" style={{background:"teal"}}>
-                     {/* <a href="#" className="brand-logo">MOVIES</a> */}
-                     <Link to="/movies"> MOVIES</Link>
-                     <ul id="nav-mobile" className="right" style={{padding:10}} >
+                     
+                    
+                     <ul id="nav-mobile"  style={{padding:10}} >
                        <li> <NavLink to="/">Home</NavLink> </li>
                        <li> <NavLink to="/about">About</NavLink></li>
                        <li> <NavLink to = "/contact">Contact</NavLink></li>
