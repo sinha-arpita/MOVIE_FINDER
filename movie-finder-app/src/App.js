@@ -23,6 +23,7 @@ import MovieCard from "./components/movie/MovieCard"
     //this function is called when user wants to save a particular movie and state is updated in the watchlist
     saveMovieHandler=(movie)=>{
         console.log("Saving movie in app", movie)
+        alert("Add to  WatchList")
         this.setState({savedMovies:[...this.state.savedMovies,movie]})
         
     }

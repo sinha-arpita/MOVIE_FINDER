@@ -158,8 +158,9 @@ class  Search extends React.Component {
                    <form className="year">
                      <input type ="text" name = "year" placeholder="Year (1900 - 2020)" onChange={this.yearHandler}/>
                    </form>
-                   <button className="btn waves-effect waves-light"  type="submit" onClick={this.handleSubmit}>Submit</button>
+                   
               </div>
+              <button className="button"  type="submit" onClick={this.handleSubmit}>SUBMIT</button>
               
               <hr></hr>
 

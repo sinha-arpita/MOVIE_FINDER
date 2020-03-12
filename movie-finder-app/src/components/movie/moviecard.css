@@ -24,3 +24,24 @@
    
 
 }
+@media (max-width: 500px){
+    .allDetail{
+        width:100%;
+        
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    }
+    .allDetail.image{
+        margin-right: 40px;
+        
+    }
+    .allDetail.detail{
+        margin-left: 20px;
+
+    }
+
+    
+
+    }
