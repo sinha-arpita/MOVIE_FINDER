@@ -16,7 +16,7 @@ import defaultPoster from "./React.js_logo-512.png"
              {
                 props.isSaved === "no" ? 
                 <button className="btn"  onClick={()=>props.saveMovieHandler(props.movie)}>Add to watchlist </button> : 
-                <button className="btn"  onClick={()=>props.removeSavedMovieHandler(props.movie)}>Remove from watchlist</button>
+                <button className="btn"  onClick={()=>props.removeSavedMovieHandler(props.movie)}>Remove watchlist</button>
              }
              
          

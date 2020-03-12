@@ -85,6 +85,10 @@ hr {
     justify-content: space-evenly;
     
 }
+.btn{
+   
+    margin-right: 90px;
+}
 @media (max-width: 500px){
     body{
       
@@ -139,6 +143,11 @@ hr {
         width:150px;
         font-size:1rem ;
         
+    }
+    .btn{
+        margin-top: 10px;
+        margin-left: 120px;
+        margin-bottom: 10px;
     }
 
     }
