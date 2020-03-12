@@ -1,4 +1,19 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Copy your .env file at MOVIE_FINDER/movie-finder-app.
+put your key as :
+REACT_APP_SECRET_NAME="your key"
+
+
+Dependencies and start:
+
+yarn add react-router-dom axios materialize css
+yarn start 
+
+
+ 
+
+
+
 
 ## Available Scripts
 
